@@ -1,14 +1,14 @@
 language: ruby
 
 before_script:
-  - before_script1
-  - before_script2
+  - ./before_script1
+  - ./before_script2
 
-script: build.rb
+script: ./build.rb
 
 after_script:
-   - after_script1
-   - after_script2
+   - ./after_script1
+   - ./after_script2
 
 rvm:
   - 1.9.3
