@@ -1,0 +1,4 @@
+#!/usr/bin/ruby
+
+puts "I'm here!!!"
+puts File.dirname(__FILE__)
